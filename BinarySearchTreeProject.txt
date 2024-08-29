@@ -1,0 +1,29 @@
+[7,5,1,8,3,6,0,9,4,2]
+
+
+                                          [5] 
+                                         /   \
+                                        /     \
+                                       /       \
+                                      /         \
+                                    [1]         [7]
+                                   /  \         / \ 
+                                  /    \       /   \
+                                 /      \     /     \
+                               [0]      [3]  [6]    [8]
+                                       /  \            \
+                                      /    \            \
+                                    [2]    [4]          [9]
+
+
+Root x = 5 ; y = soldakiler ; z = sağdakiler
+
+7>5 sağ tarafa geçer,
+1<5 sol tarafa geçer,
+8>5 ve 8>7 sağ tarafa geçer,
+3<5 ve 3>1 sağ tarafa geçer,
+6>5 ve 6<7 sol tarafa geçer,
+0<5 ve 0<1 sol tarafa geçer,
+9>5 ve 9>7 ve 9>8 sağ tarafa geçer,
+4<5 ve 4>1 ve 4>3 sağ tarafa geçer,
+2<5 ve 2>1 ve 2<3 sol tarafa geçer.
